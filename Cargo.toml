@@ -1,0 +1,17 @@
+[package]
+name = "fun-with-napi"
+version = "0.1.0"
+authors = ["Max Nachlinger <mnachlinger@walmartlabs.com>"]
+edition = "2018"
+publish = false
+license = "UNLICENSED"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+napi = "1.0"
+napi-derive = "1.0"
+
+[build-dependencies]
+napi-build = "1.0"

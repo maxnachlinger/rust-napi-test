@@ -1,0 +1,19 @@
+{
+  "name": "fun-with-napi",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@napi-rs/cli": "^1.0.0",
+    "benchmark": "^2.1.4"
+  },
+  "napi": {
+    "name": "fibonacci"
+  },
+  "scripts": {
+    "build": "napi build --release",
+    "build:debug": "napi build",
+    "bench": "node ./benchmarks/fibonacci.js"
+  }
+}
