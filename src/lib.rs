@@ -12,6 +12,16 @@ use napi_derive::napi;
 static ALLOC: mimalloc::MiMalloc = mimalloc::MiMalloc;
 
 #[napi]
-pub fn plus_100(input: u32) -> u32 {
-  input + 100
+fn fibonacci_native(n: i64) -> i64 {
+  let mut x: i64 = 1;
+  let mut y: i64 = 1;
+  let mut temp: i64;
+
+  for _ in 1..n {
+    temp = x;
+    x += y;
+    y = temp
+  }
+
+  y
 }
