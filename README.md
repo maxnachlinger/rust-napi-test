@@ -1,9 +1,5 @@
 # `rust-napi-test`
 
-```
-yarn add @napi-rs/package-template
-```
-
 ## Support matrix
 
 ### Operating Systems
