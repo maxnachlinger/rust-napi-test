@@ -1,10 +1,4 @@
-# `@napi-rs/package-template`
-
-![https://github.com/napi-rs/package-template/actions](https://github.com/napi-rs/package-template/workflows/CI/badge.svg)
-
-> Template project for writing node package with napi-rs.
-
-## Install this test package
+# `rust-napi-test`
 
 ```
 yarn add @napi-rs/package-template
@@ -26,8 +20,6 @@ yarn add @napi-rs/package-template
 | Linux arm gnu    | ✓      | ✓      | ✓      |
 | Linux arm64 gnu  | ✓      | ✓      | ✓      |
 | Linux arm64 musl | ✓      | ✓      | ✓      |
-| Android arm64    | ✓      | ✓      | ✓      |
-| Android armv7    | ✓      | ✓      | ✓      |
 | FreeBSD x64      | ✓      | ✓      | ✓      |
 
 ## Ability
