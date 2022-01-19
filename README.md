@@ -1,5 +1,10 @@
 # `rust-napi-test`
 
+## Benchmarks
+
+- `yarn build`
+- `yarn bench`
+
 ## Support matrix
 
 ### Operating Systems
@@ -47,7 +52,7 @@ In this package we choose a better way to solve this problem. We release differe
 ## Develop requirements
 
 - Install latest `Rust`
-- Install `Node.js@10+` which fully supported `Node-API`
+- Install `Node.js@16+` which fully supported `Node-API`
 - Install `yarn@1.x`
 
 ## Test in local
