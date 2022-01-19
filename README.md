@@ -1,9 +1,15 @@
 # `rust-napi-test`
 
+## Getting started
+
+- [install Rust](https://www.rust-lang.org/tools/install) 
+- `yarn global add @napi-rs/cli` or `npm i -g @napi-rs/cli`
+- `yarn` or `npm i`
+- `yarn build` or `npm run build`
+
 ## Benchmarks
 
-- `yarn build`
-- `yarn bench`
+- `yarn bench` or `npm run bench`
 
 ## Support matrix
 
