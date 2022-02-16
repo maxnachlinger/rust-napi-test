@@ -95,3 +95,23 @@ git push
 ```
 
 GitHub actions will do the rest job for you.
+
+
+## Results on my machine
+
+```shell
+node -v
+v16.14.0
+```
+
+### Fibonacci Benchmarks
+| | ops/sec | # of runs |
+| :---------- | ----------: | ----------: |
+| js fib 10 | 55,360,895 | 90 |
+| wasm fib 10 | 27,436,213 | 90 |
+| js fib 20 | 28,259,782 | 90 |
+| wasm fib 20 | 25,873,549 | 86 |
+| js fib 40 | 14,761,155 | 91 |
+| wasm fib 40 | 23,580,599 | 91 |
+| js fib 100 | 5,711,025 | 93 |
+| wasm fib 100 | 14,390,518 | 90 |
