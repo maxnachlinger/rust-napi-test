@@ -17,7 +17,7 @@ function isMusl() {
     }
   } else {
     const { glibcVersionRuntime } = process.report.getReport().header
-    return !glibcVersionRuntime
+    return !Boolean(glibcVersionRuntime)
   }
 }
 

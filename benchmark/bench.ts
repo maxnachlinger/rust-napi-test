@@ -22,9 +22,9 @@ const testFib = (n: number): Promise<Summary> =>
 
 async function run() {
   await testFib(10)
+  await testFib(20)
+  await testFib(40)
   await testFib(100)
-  await testFib(1000)
-  await testFib(10000)
 }
 
 run().catch((e) => {

@@ -93,17 +93,24 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@napi-rs/cli@^2.0.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@napi-rs/cli/-/cli-2.4.0.tgz#a74d991e12871d6fb8eb32b33cc53a9c105b1921"
-  integrity sha512-rq4ivqWY7KWG104gRxTmWyehE4eUxJ/mBJx81r3PeghtLZ11NpJNuvF9kSvsol8hTjJQ7CWlF2plQ20I9rMOng==
+"@napi-rs/cli@2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@napi-rs/cli/-/cli-2.5.0.tgz#68cbf772e977d3b9d80b300c1225766460514a7c"
+  integrity sha512-OstHFxgQaGFgir0XfvHLstpxhYY+YLafUKQSyAAAIW8QerlgmijDnZa0Oka7QkdYbVEPw6mFCuxu7JiPYF+SYw==
 
 "@napi-rs/triples@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@napi-rs/triples/-/triples-1.1.0.tgz#88c35b72e79a20b79bb4c9b3e2817241a1c9f4f9"
   integrity sha512-XQr74QaLeMiqhStEhLn1im9EOMnkypp7MZOwQhGzqp2Weu5eQJbpPxWxixxlYRKWPOmJjsk6qYfYH9kq43yc2w==
 
-"@node-rs/helper@^1.0.0", "@node-rs/helper@^1.2.1":
+"@node-rs/helper@1.3.3":
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/@node-rs/helper/-/helper-1.3.3.tgz#2b1953846ddba31bfb7ecf4ba57e7b1359fcdedc"
+  integrity sha512-p4OdfQObGN9YFy5WZaGwlPYICQSe7xZYyXB0sxREmvj1HzGKp5bPg2PlfgfMZEfnjIA882B9ZrnagYzZihIwjA==
+  dependencies:
+    "@napi-rs/triples" "^1.1.0"
+
+"@node-rs/helper@^1.0.0":
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/@node-rs/helper/-/helper-1.3.2.tgz#7614069d497d9ac506e6b94f1d59c627670818ef"
   integrity sha512-cjP3xk/x8YQP4bsg9CdzxC86olR2lLkTUR1LB9UtOZElMht3SzE/+X3ZYJfIeOzxfKcDA4uABg+/1JRgkx/Puw==
@@ -143,7 +150,7 @@
   dependencies:
     "@swc/core" "^1.2.119"
 
-"@swc-node/register@^1.4.2":
+"@swc-node/register@1.4.2":
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/@swc-node/register/-/register-1.4.2.tgz#98801cc5ad8792519511bd6ae31c01f40aa487a3"
   integrity sha512-wLZz0J7BTO//1Eq7e4eBQjKF380Hr2eVemz849msQSKcVM1D7UJUt/dP2TinEVGx++/BXJ/0q37i6n9Iw0EM0w==
