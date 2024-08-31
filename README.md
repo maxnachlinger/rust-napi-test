@@ -3,29 +3,68 @@
 ## Getting started
 
 - [install Rust](https://www.rust-lang.org/tools/install) 
-- `yarn global add @napi-rs/cli` or `npm i -g @napi-rs/cli`
-- `yarn` or `npm i`
-- `yarn build` or `npm run build`
+- `npm i -g @napi-rs/cli`
+- `npm i`
+- `npm run build`
 
 ## Benchmarks
 
-- `yarn bench` or `npm run bench`
+- `npm run bench`
 
 ## Results on my machine
 
 ```shell
 node -v
-v16.14.0
+v22.7.0
 ```
 
-### Fibonacci Benchmarks
-| | ops/sec | # of runs |
-| :---------- | ----------: | ----------: |
-| js fib 10 | 55,360,895 | 90 |
-| wasm fib 10 | 27,436,213 | 90 |
-| js fib 20 | 28,259,782 | 90 |
-| wasm fib 20 | 25,873,549 | 86 |
-| js fib 40 | 14,761,155 | 91 |
-| wasm fib 40 | 23,580,599 | 91 |
-| js fib 100 | 5,711,025 | 93 |
-| wasm fib 100 | 14,390,518 | 90 |
+```
+Running "Fibonacci 10" suite...
+Progress: 100%
+
+  Rust:
+    41 521 556 ops/s, ±2.94%   | slowest, 53.07% slower
+
+  JS:
+    88 470 327 ops/s, ±2.28%   | fastest
+
+Finished 2 cases!
+  Fastest: JS
+  Slowest: Rust
+Running "Fibonacci 20" suite...
+Progress: 100%
+
+  Rust:
+    38 226 744 ops/s, ±0.82%   | slowest, 34.95% slower
+
+  JS:
+    58 761 983 ops/s, ±1.22%   | fastest
+
+Finished 2 cases!
+  Fastest: JS
+  Slowest: Rust
+Running "Fibonacci 40" suite...
+Progress: 100%
+
+  Rust:
+    30 942 510 ops/s, ±1.32%   | slowest, 6.56% slower
+
+  JS:
+    33 113 264 ops/s, ±1.22%   | fastest
+
+Finished 2 cases!
+  Fastest: JS
+  Slowest: Rust
+Running "Fibonacci 100" suite...
+Progress: 100%
+
+  Rust:
+    18 684 872 ops/s, ±0.44%   | fastest
+
+  JS:
+    13 800 095 ops/s, ±0.65%   | slowest, 26.14% slower
+
+Finished 2 cases!
+  Fastest: Rust
+  Slowest: JS
+```
