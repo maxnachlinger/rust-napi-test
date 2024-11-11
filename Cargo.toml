@@ -10,8 +10,8 @@ version = "0.1.0"
 crate-type = ["cdylib"]
 
 [dependencies]
-napi = "3.0.0-alpha.8"
-napi-derive = "3.0.0-alpha.7"
+napi = "3.0.0-alpha.20"
+napi-derive = "3.0.0-alpha.18"
 
 [target.'cfg(all(any(windows, unix), target_arch = "x86_64", not(target_env = "musl")))'.dependencies]
 mimalloc = {version = "0.1.43"}
